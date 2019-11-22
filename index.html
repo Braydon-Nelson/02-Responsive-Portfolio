@@ -5,82 +5,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
     <!-- internet bootstrap -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- local bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- local css -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
     <title>02 - Responsive Portfolio</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
 
 
-            <a class="navbar-brand" href="#">Braydon Nelson</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <a class="navbar-brand" href="#">Braydon Nelson</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
 
-                </ul>
+                    </ul>
 
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>About Me</h2>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>About Me</h2>
+                </div>
             </div>
-        </div>
 
-        <hr>
+            <hr>
 
-        <div class="row">
-            <div class="col-md-2">
-                <img class="img-thumbnail" src=" http://placehold.it/200x200" alt="">
-            </div>
-            <div class="col-md-6">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem ea maiores quis laudantium pariatur
-                    sunt ex eligendi itaque eveniet repudiandae! Quisquam reiciendis vitae eligendi porro sed molestiae
-                    assumenda autem dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae delectus
-                    maxime numquam eos magnam. Temporibus amet nemo, dolorem ad eos facere fugiat pariatur sed provident
-                    sequi. Enim illum placeat similique! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                    alias nemo?
-                </p>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="img-thumbnail" src=" http://placehold.it/200x200" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem ea maiores quis laudantium
+                        pariatur
+                        sunt ex eligendi itaque eveniet repudiandae! Quisquam reiciendis vitae eligendi porro sed
+                        molestiae
+                        assumenda autem dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                        delectus
+                        maxime numquam eos magnam. Temporibus amet nemo, dolorem ad eos facere fugiat pariatur sed
+                        provident
+                        sequi. Enim illum placeat similique! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Odit,
+                        alias nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nulla perferendis
+                        nemo
+                        natus veritatis ipsam nostrum error officiis at, quibusdam aliquam! Quod non illum accusamus
+                        assumenda sequi cupiditate repudiandae dolorem? Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Et quod, harum deserunt repudiandae, commodi assumenda labore quam est aperiam facere
+                        ratione,
+                        provident tenetur placeat qui. Odit veniam fuga facilis quidem.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="push"></div>
+
     </div>
+
+    <footer class="text-muted modal-footer ">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
+                    href="/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
+        </div>
+    </footer>
 
 
 
